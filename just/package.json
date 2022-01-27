@@ -1,0 +1,26 @@
+{
+  "name": "just",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "just-builder-assets build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alifd/next": "^1.25.16"
+  },
+  "builder": {
+    "entry": [
+      "index.js"
+    ]
+  },
+  "just": {
+    "type": "app/assets-react"
+  },
+  "devDependencies": {
+    "@ali/just-builder-assets-react": "^3.14.5"
+  }
+}
