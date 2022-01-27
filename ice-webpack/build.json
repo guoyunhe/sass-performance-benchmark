@@ -1,4 +1,5 @@
 {
   "vite": false,
-  "plugins": ["@ali/build-plugin-ice-def"]
+  "disableRuntime": true,
+  "entry": "src/index.js"
 }
