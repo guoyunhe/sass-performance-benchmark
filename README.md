@@ -16,6 +16,6 @@ Test result:
 | ICE (Vite)       | 9.71s      |
 | ICE (Webpack)    | 24.16s     |
 
-ICE's Vite mode is much faster than Create React App, showing Rollup's advantage over webpack.
+ICE's Vite mode is faster than Create React App, showing Rollup's advantage over webpack.
 
-ICE's Webpack mode is much slower than Create React App, which uses the same webpack + sass backend.
+ICE's Webpack mode is slower than Create React App, which uses the same webpack + sass backend.
