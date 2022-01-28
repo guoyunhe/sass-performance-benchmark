@@ -1,5 +1,4 @@
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const safeParser = require('postcss-safe-parser');
 
 module.exports = ({ onGetWebpackConfig }) => {
   onGetWebpackConfig((config) => {
