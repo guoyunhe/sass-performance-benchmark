@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "使用 TypeScript，未使用任何 UI 库。",
   "dependencies": {
-    "@alifd/next": "^1.25.17",
+    "@alifd/next": "^1.25.16",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -13,7 +13,6 @@
     "eslint": "^7.30.0",
     "fibers": "^4.0.3",
     "ice.js": "^2.0.0",
-    "node-sass": "^7.0.1",
     "sass": "^1.49.0",
     "sass-loader": "^12.4.0",
     "stylelint": "^13.7.2"

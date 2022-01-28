@@ -1,0 +1,5 @@
+{
+  "disableRuntime": true,
+  "entry": "src/index.js",
+  "plugins": ["./build-plugin.js"]
+}
