@@ -1,0 +1,19 @@
+{
+  "disableRuntime": true,
+  "entry": "src/index.js",
+  "webpackLoaders": {
+    "scss": {
+      "test": ".scss$",
+      "use": [
+        "css-loader",
+        "postcss-loader",
+        {
+          "loader": "sass-loader",
+          "options": {
+            "implementation": "node-sass"
+          }
+        }
+      ]
+    }
+  }
+}
